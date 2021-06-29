@@ -1,6 +1,8 @@
 # 401-data-structures-and-algorithms
 
-This repo will have all the challenges in 401-level
+# Reverse an Array
+<!-- Description of the challenge -->
+* INPUT any array of numbers and the OUTPUT return the array of numbers in reversed way.
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
@@ -13,8 +15,9 @@ This repo will have all the challenges in 401-level
 First of all i write what is the problem domain and then find the appropriate algorithem to solve the problem and start writing a code and testing the output until i git what i want 
 
 
-| Challenge Name | Link |
-|----------------|------|
-|Reverse an Array | [Repo](https://github.com/baraarami/401-data-structures-and-algorithms/tree/main/challenges/challenge-1) |
-|Insert Shift Array | [Repo](https://github.com/baraarami/401-data-structures-and-algorithms/tree/main/challenges/challenge-2) |
+
+
+|Title | link to challenge readme | link to the code |
+|------|--------------------------|------------------|
+|array-reverse | [README](https://github.com/baraarami/401-data-structures-and-algorithms/blob/main/README.md) | [Code ](https://github.com/baraarami/401-data-structures-and-algorithms/blob/main/challenges/array-reverse.java) |
 

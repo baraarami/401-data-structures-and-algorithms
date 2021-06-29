@@ -1,3 +1,4 @@
+
 # 401-data-structures-and-algorithms
 
 # Array-Binary-Search
@@ -7,7 +8,7 @@
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![array-reverse png](https://user-images.githubusercontent.com/79080942/123548338-0fb72500-d76d-11eb-84d0-96d5cf6cd0e1.png)
+![Array-Binary-Search](https://user-images.githubusercontent.com/79080942/123820864-94d44280-d903-11eb-8b3d-0e72e6474c37.png)
 
 
 ## Approach & Efficiency

@@ -21,4 +21,4 @@ First of all i write what is the problem domain and then find the appropriate al
 
 |Title | link to challenge readme | link to the code |
 |------|--------------------------|------------------|
-|array-reverse | [README](https://github.com/baraarami/401-data-structures-and-algorithms/blob/main/README.md) | [Code ](https://github.com/baraarami/401-data-structures-and-algorithms/blob/main/challenges/array-reverse.java) |
+|array-reverse | [README](https://github.com/baraarami/401-data-structures-and-algorithms/blob/array-binary-search/challenges/challenge-3/ReadMe.md) | [Code ](https://github.com/baraarami/401-data-structures-and-algorithms/blob/array-binary-search/challenges/challenge-3/binaryArray.java) |

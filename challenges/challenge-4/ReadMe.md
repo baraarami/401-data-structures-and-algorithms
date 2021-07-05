@@ -8,9 +8,9 @@
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-[baraa-image](https://github.com/baraarami/401-data-structures-and-algorithms/blob/Fibonacci-number/challenges/challenge-4/bara'a.png)
+![baraa-image](https://github.com/baraarami/401-data-structures-and-algorithms/blob/Fibonacci-number/challenges/challenge-4/bara'a.png)
 
-[sead-image](https://github.com/SaedJabali/401-data-structures-and-algorithms/blob/main/challenges/challenge4/Collab,challenge.jpg)
+![sead-image](https://github.com/SaedJabali/401-data-structures-and-algorithms/blob/main/challenges/challenge4/Collab,challenge.jpg)
 
 
 ## Approach & Efficiency

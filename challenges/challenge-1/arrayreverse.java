@@ -1,4 +1,5 @@
-public class reversarray{
+  
+public class arrayreverse{
 
 
         public static void main(String[] args){
@@ -16,7 +17,7 @@ public class reversarray{
 
                 System.out.println(" the reversed array is :");
 
-                for(int i=array1.length-1; i>0 ; i--){
+                for(int i=array1.length-1; i>=0 ; i--){
 
                 System.out.print(array1[i] + " ");
 

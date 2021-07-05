@@ -7,7 +7,7 @@
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-
+[baraa-image]()
 
 
 ## Approach & Efficiency

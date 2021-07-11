@@ -2,9 +2,9 @@ import java.util.Stack;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 	// Stack
-        Stack stack= new Stack();
+    Stack<Integer> stack = new Stack<Integer>();
 
         System.out.println(stack.isEmpty());
         System.out.println(stack.peek());
@@ -22,6 +22,45 @@ public class Main {
         System.out.println(stack);
 
 
+        // Queue
+        Queue<Integer> queue = new Queue<Integer>();
+        queue.enQueue(8);
+        queue.enQueue(9);
+        queue.enQueue(10);
+        queue.enQueue(11);
+
+        System.out.println("Queue");
+        System.out.println(queue);
+        System.out.println(queue.deQueue());
+        System.out.println(queue.peek());
+        System.out.println(queue);
+        System.out.println(queue.deQueue());
+        System.out.println(queue.peek());
+        System.out.println(queue);
+
+
+        System.out.println("start pseudo");
+        //pseudoQueue
+        PseudoQueue pseudoQueue = new PseudoQueue();
+//        PseudoQueue.enqueue(5);
+//        PseudoQueue.enqueue(6);
+//        PseudoQueue.enqueue(8);
+//        System.out.println(pseudoQueue);
+//        pseudoQueue.dequeue();
+//        System.out.println(pseudoQueue);
+//        pseudoQueue.dequeue();
+//        System.out.println(pseudoQueue);
+
+        pseudoQueue.getFirstStack().enqueue(1);
+        pseudoQueue.getFirstStack().enqueue(2);
+        pseudoQueue.getFirstStack().enqueue(3);
+        pseudoQueue.getFirstStack().enqueue(4);
+
+        System.out.println(pseudoQueue.toString());
+        System.out.println(pseudoQueue.dequeue());
+        System.out.println(pseudoQueue.dequeue());
+        System.out.println(pseudoQueue.dequeue());
     }
-}
+    }
+
 

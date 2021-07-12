@@ -38,29 +38,30 @@ public class Main {
         System.out.println(queue.peek());
         System.out.println(queue);
 
-
         System.out.println("start pseudo");
         //pseudoQueue
         PseudoQueue pseudoQueue = new PseudoQueue();
-//        PseudoQueue.enqueue(5);
-//        PseudoQueue.enqueue(6);
-//        PseudoQueue.enqueue(8);
-//        System.out.println(pseudoQueue);
-//        pseudoQueue.dequeue();
-//        System.out.println(pseudoQueue);
-//        pseudoQueue.dequeue();
-//        System.out.println(pseudoQueue);
 
-        pseudoQueue.getFirstStack().enqueue(1);
-        pseudoQueue.getFirstStack().enqueue(2);
-        pseudoQueue.getFirstStack().enqueue(3);
-        pseudoQueue.getFirstStack().enqueue(4);
+        pseudoQueue.enqueue(5);
+        pseudoQueue.enqueue(6);
+        pseudoQueue.enqueue(8);
+        System.out.println(pseudoQueue);
+        pseudoQueue.dequeue();
+        System.out.println(pseudoQueue);
+        pseudoQueue.dequeue();
+        System.out.println(pseudoQueue);
+        // pseudoQueue.getFirstStack().enqueue(1);
+        // pseudoQueue.getFirstStack().enqueue(2);
+        // pseudoQueue.getFirstStack().enqueue(3);
+        // pseudoQueue.getFirstStack().enqueue(4);
 
-        System.out.println(pseudoQueue.toString());
-        System.out.println(pseudoQueue.dequeue());
-        System.out.println(pseudoQueue.dequeue());
-        System.out.println(pseudoQueue.dequeue());
+        // System.out.println(pseudoQueue.toString());
+        // System.out.println(pseudoQueue.dequeue());
+        // System.out.println(pseudoQueue.dequeue());
+        // System.out.println(pseudoQueue.dequeue());
     }
+
+    
     }
 
 

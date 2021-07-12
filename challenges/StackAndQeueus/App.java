@@ -1,13 +1,15 @@
 
 
+import StackAndQeueus.PseudoQueue;
 import StackAndQeueus.Queue;
 import StackAndQeueus.Stack;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 	// Stack
-        Stack stack = new Stack();
+
+        Stack<Integer> stack = new Stack<Integer>();
 
         System.out.println(stack.isEmpty());
         System.out.println(stack.peek());
@@ -26,7 +28,7 @@ public class App {
 
 
         // Queue
-        Queue queue = new Queue();
+        Queue<Integer> queue = new Queue<Integer>();
         queue.enQueue(8);
         queue.enQueue(9);
         queue.enQueue(10);
@@ -40,6 +42,40 @@ public class App {
         System.out.println(queue.deQueue());
         System.out.println(queue.peek());
         System.out.println(queue);
+
+
+        System.out.println("start pseudo");
+        //pseudoQueue
+        PseudoQueue pseudoQueue = new PseudoQueue();
+
+        pseudoQueue.enqueue(5);
+        pseudoQueue.enqueue(6);
+        pseudoQueue.enqueue(8);
+        System.out.println(pseudoQueue);
+        pseudoQueue.dequeue();
+        System.out.println(pseudoQueue);
+        pseudoQueue.dequeue();
+        System.out.println(pseudoQueue);
+
+//        pseudoQueue.enqueue(1);
+//        pseudoQueue.enqueue(2);
+//        pseudoQueue.enqueue(3);
+//        pseudoQueue.enqueue(4);
+//
+//        System.out.println(pseudoQueue.toString());
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue.dequeue());
+//
+//        pseudoQueue.enqueue(5);
+//        pseudoQueue.enqueue(6);
+//        pseudoQueue.enqueue(7);
+//        pseudoQueue.enqueue(8);
+//
+//        System.out.println(pseudoQueue.toString());
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue.dequeue());
 
     }
 }

@@ -1,4 +1,5 @@
 
+import Node.Node;
 
 public class Queue <T>{ // Queue class that has a front property
     Node<T> front ;

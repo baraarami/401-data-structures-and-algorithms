@@ -2,7 +2,7 @@ package AnimalShalter;
 
 public class AnimalShelter <T> {  //
     Node<T> front;
-    Node rear ;
+    Node<T> rear ;
 
 
     public AnimalShelter(){

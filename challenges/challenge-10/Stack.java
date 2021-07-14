@@ -1,10 +1,11 @@
 
+import Node.Node;
 
 public class Stack <T> { //stack class with top property
-    Node<T> top;
+    Node top;
 
     public Stack(T value) {
-        this.top = new Node<T>(value);
+        this.top = new Node(value);
 
     }
 
@@ -12,9 +13,9 @@ public class Stack <T> { //stack class with top property
 
     }
 
-    public void push(T object) { //arg is value
+    public void push(T value) { //arg is value
         try {
-            Node<T> node = new Node<T>(object);  //add new node with value
+            Node node = new Node(value);  //add new node with value
             node.next = top;  // make the next node = top
             top = node; // make the new node = the top of the stack
 
@@ -24,7 +25,7 @@ public class Stack <T> { //stack class with top property
     }
 
     public Object pop() {
-        Node<T> lastNode = top; // the lastNode will be the first one in the top
+        Node lastNode = top; // the lastNode will be the first one in the top
         try {
             if (isEmpty()) {
                 return new NullPointerException();
@@ -59,20 +60,4 @@ public class Stack <T> { //stack class with top property
     public String toString(){
         return  " Stack { " + " Top = "+ top + " } ";
     }
-
-    public  void enqueue(T value){
-           try {
-               while (!isEmpty()){
-                   PseudoQueue.secondStack.push((Integer) pop());
-               }
-               push(value);
-               while (!PseudoQueue.secondStack.isEmpty()){
-                   push((PseudoQueue.secondStack.pop()));
-               }
-           }catch (Exception ex){
-               System.out.println(ex);
-           }
-       }
 }
-
-

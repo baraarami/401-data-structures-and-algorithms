@@ -1,10 +1,13 @@
-import java.util.Stack;
+import StackAndQeueus.PseudoQueue;
+import StackAndQeueus.Queue;
+import StackAndQeueus.Stack;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
 	// Stack
-    Stack<Integer> stack = new Stack<Integer>();
+
+        Stack<Integer> stack = new Stack<Integer>();
 
         System.out.println(stack.isEmpty());
         System.out.println(stack.peek());
@@ -38,6 +41,7 @@ public class Main {
         System.out.println(queue.peek());
         System.out.println(queue);
 
+
         System.out.println("start pseudo");
         //pseudoQueue
         PseudoQueue pseudoQueue = new PseudoQueue();
@@ -50,18 +54,5 @@ public class Main {
         System.out.println(pseudoQueue);
         pseudoQueue.dequeue();
         System.out.println(pseudoQueue);
-        // pseudoQueue.getFirstStack().enqueue(1);
-        // pseudoQueue.getFirstStack().enqueue(2);
-        // pseudoQueue.getFirstStack().enqueue(3);
-        // pseudoQueue.getFirstStack().enqueue(4);
-
-        // System.out.println(pseudoQueue.toString());
-        // System.out.println(pseudoQueue.dequeue());
-        // System.out.println(pseudoQueue.dequeue());
-        // System.out.println(pseudoQueue.dequeue());
     }
-
-    
-    }
-
-
+}

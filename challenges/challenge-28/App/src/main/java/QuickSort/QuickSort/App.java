@@ -27,25 +27,5 @@ public class App {
 
     }
 
-    private static int position(int[] arr, int left, int right) {
-        int pivot = arr[right];
-
-        int low = left -1;
-        for (int i=left ; i < right ;i ++){
-            if (arr[i] <= pivot){
-                low++;
-                Swap(arr , i ,low);
-            }
-        }
-        Swap(arr , right , low + 1);
-        return low + 1 ;
-    }
-
-    private static void Swap(int[] arr, int i, int low) {
-        int temp;
-        temp = arr[i];
-        arr[i] = arr[low];
-        arr[low] = temp;
-    }
 
 }

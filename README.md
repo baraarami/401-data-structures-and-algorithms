@@ -4,15 +4,17 @@
 Quicksort : is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. For this reason, it is sometimes called partition-exchange sort.
 
 Pseudocode
-SelectionSort(int[] arr)
-    DECLARE n <-- arr.Length;
-    FOR i = 0; i to n - 1  
-        DECLARE min <-- i;
-        FOR j = i + 1 to n
-            if (arr[j] < arr[min])
-                min <-- j;
 
-        DECLARE temp <-- arr[min];
+SelectionSort(int[] arr)
+  
+     DECLARE n <-- arr.Length;
+    FOR i = 0; i to n - 1  
+     DECLARE min <-- i;
+       FOR j = i + 1 to 
+          if (arr[j] < arr[min])  
+             min <-- j;
+                
+         DECLARE temp <-- arr[min];
         arr[min] <-- arr[i];
         arr[i] <-- temp;
         
